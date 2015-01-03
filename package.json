@@ -1,0 +1,21 @@
+{
+  "name": "rainbow-theme",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A standalone conversion of Dayle Rees' Textmate Rainbow theme.",
+  "repository": "https://github.com/carlo/rainbow-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "contributors": [
+    {
+      "name": "Carlo Zottmann",
+      "email": "carlo@zottmann.org"
+    },
+    {
+      "name": "Dayle Rees",
+      "email": "thepunkfan@gmail.com"
+    }
+  ]
+}

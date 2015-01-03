@@ -1,0 +1,270 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+  margin-right: 5px;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(34, 34, 60, 0.03);
+}
+
+.whitespace.trailing {
+  background-color: #ECE4EB;
+}
+
+.comment, .punctuation.definition.comment {
+  color: #999999;
+}
+
+.comment.line.note.notation {
+  color: #C25C5C;
+}
+
+.string {
+  color: #009400;
+}
+
+.keyword {
+  color: #ED5F21;
+}
+
+.variable {
+  color: #404073;
+}
+
+.variable.parameter {
+  color: #009A9A;
+}
+
+.constant {
+  color: #A238A2;
+}
+
+.constant.numeric {
+  color: #C23198;
+}
+
+.constant.character {
+  color: #D64FD6;
+}
+
+.storage {
+  color: #CC3333;
+}
+
+.support.function {
+  color: #3366B3;
+}
+
+.support.type, .support.class {
+  color: #00A659;
+}
+
+.entity.name.class, .entity.name.type.class {
+  color: rgba(0, 0, 102, 0.8);
+}
+
+.entity.other.inherited-class {
+  color: #CCA300;
+}
+
+.entity.name.function {
+  color: #0062B0;
+}
+
+.entity.name.function.decorator {
+  color: #857A21;
+}
+
+.invalid {
+  color: #BD0A12;
+  background-color: #F57679;
+}
+
+.invalid.deprecated {
+  background-color: #F82820;
+}
+
+.entity.name {
+  color: #0062B0;
+}
+
+.entity.other.attribute-name {
+  color: #ED5F21;
+}
+
+.entity.name.tag {
+  color: #CC3333;
+}
+
+.markup.deleted {
+  color: #CC3333;
+}
+
+.markup.inserted {
+  color: #009400;
+}
+
+.markup.changed {
+  color: #009400;
+}
+
+.markup.ignored {
+  color: #808080;
+}
+
+.markup.untracked {
+  color: #808080;
+}
+
+.source.diff {
+  color: #4D4D4D;
+}
+
+.meta.diff.header {
+  color: #000000;
+}
+
+.pylinter {
+  color: #FFFFFF;
+}
+
+.text.html.markdown .markup.raw.inline {
+  color: #66519E;
+}
+
+.text.html.markdown .meta.dummy.line-break {
+  background-color: rgba(170, 128, 255, 0.8);
+}
+
+.markdown.heading, .markup.heading, .markup.heading .entity.name, .markup.heading.markdown .punctuation.definition.heading.markdown {
+  color: #ED5F21;
+}
+
+.markup.italic {
+  font-style: italic;
+  color: #CC3333;
+}
+
+.markup.bold {
+  font-weight: bold;
+  color: #992E36;
+}
+
+.markup.underline {
+  text-decoration: underline;
+  color: #B33034;
+}
+
+.markup.quote, .punctuation.definition.blockquote.markdown {
+  color: #0000FF;
+}
+
+.markup.quote {
+  color: #11119E;
+}
+
+.string.other.link.title.markdown {
+  text-decoration: underline;
+  color: #11911E;
+}
+
+.markup.raw.block {
+  color: #66519E;
+}
+
+.punctuation.definition.list_item.markdown {
+}
+
+.markup.raw.block.fenced.markdown {
+  background-color: #E4E4EB;
+}
+
+.punctuation.definition.fenced.markdown, .variable.language.fenced.markdown {
+  color: #0000FF;
+  background-color: #E4E4EB;
+}
+
+.variable.language.fenced.markdown {
+  color: #AA80FF;
+}
+
+.meta.separator {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bracket.default {
+  text-decoration: underline;
+  color: rgba(237, 95, 33, 0.7);
+}
+
+.bracket.string {
+  text-decoration: underline;
+  color: rgba(0, 148, 0, 0.8);
+}
+
+.bracket.curly {
+  color: rgba(237, 95, 33, 0.7);
+}
+
+.bracket.square {
+  color: rgba(0, 0, 255, 0.6);
+}
+
+.bracket.round {
+  color: #8869CE;
+}
+
+.bracket.angle {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.bracket.tag {
+  color: #CC3333;
+}
