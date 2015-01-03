@@ -8,7 +8,7 @@ adjusting gutter margin & color as well as the invisibles to my liking.
 
 ## Screenshot
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![Screenshot of theme showing Ruby code](https://raw.githubusercontent.com/carlo/rainbow-theme/master/rainbow-theme.png)
 
 
 ## Developers
