@@ -1,7 +1,7 @@
 {
   "name": "rainbow-theme",
   "theme": "syntax",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A pleasing, light syntax theme. A standalone conversion of Dayle Rees' Textmate Rainbow theme.",
   "repository": "https://github.com/carlo/rainbow-theme",
   "license": "MIT",
