@@ -6,8 +6,8 @@ atom-text-editor {
   color: @syntax-text-color;
 }
 
-:host .gutter,
-atom-text-editor .gutter {
+:host .gutter:last-child,
+atom-text-editor .gutter:last-child {
   background-color: @syntax-gutter-background-color;
   color: @syntax-gutter-text-color;
   margin-right: 5px;
@@ -80,6 +80,20 @@ atom-text-editor.is-focused .line.cursor-line {
   color: #C25C5C;
 }
 
+.meta.brace.curly,
+.meta.brace.round,
+.meta.brace.square,
+.meta.delimiter,
+.meta.delimiter.method.period,
+.meta.delimiter.object.comma,
+.punctuation.definition.parameters,
+.punctuation.definition.parameters.begin,
+.punctuation.definition.parameters.end,
+.punctuation.separator.parameter,
+.punctuation.terminator.statement {
+  color: #666;
+}
+
 .string {
   color: #009400;
 }
@@ -108,10 +122,6 @@ atom-text-editor.is-focused .line.cursor-line {
   color: #D64FD6;
 }
 
-.storage {
-  color: #CC3333;
-}
-
 .support.function {
   color: #3366B3;
 }
@@ -119,6 +129,17 @@ atom-text-editor.is-focused .line.cursor-line {
 .support.type,
 .support.class {
   color: #00A659;
+}
+
+.entity.name.tag,
+.entity.name.tag.css,
+.keyword,
+.meta.tag,
+.storage,
+.storage.type,
+.variable.language.super,
+.variable.language.this {
+  color: #CC3333;
 }
 
 .entity.name.class,
